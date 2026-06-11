@@ -1,0 +1,17 @@
+.extern ,L3
+.entry  LOOP s
+
+MAIN mov ,M1[r2], [r7], W
+ add r2
+LOOP: 
+ prn #-5,r3,LOOP
+ mov M1[r3 [r3],,r3
+STR: .string "abc def
+LENGTH: .data 6,-,9
+K:  .data 22,23,24c,11
+D: .data 5000,-1000
+M1: .mat [2][2] 1,2,3,4,5,6,7
+M2: .mat [2][2 1,2,3,4
+M3: .mat [2][0] 1,2,3,4
+M4: .mat [2][2] 1,2030,-5000,19
+M5: .mat [2][2] -,2,+,4

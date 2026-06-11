@@ -1,0 +1,17 @@
+MAIN: lea r1, r2
+DUP: add r2, r3
+DUP: sub r3, r4
+: inc r0
+jsr #9
+^illegal.: cmp r1, r2
+LBL: prn #12x
+PRINTX: stop
+THIS_LABEL_NAME_IS_WAY_TOO_LONG_EXCEEDING_30: rts
+r3: .mat [2][2] 1,2,3,4
+mov M1[r8][r1], r2
+STR: .string "hello"
+add STR, #10
+lea #5, r3
+jsr STR
+cmp M1, #5
+rts: stop

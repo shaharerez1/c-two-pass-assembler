@@ -1,0 +1,12 @@
+# Object files
+*.o
+
+# Executables
+assembler
+*.out
+*.exe
+
+# IDE/OS files
+.vscode/
+.idea/
+.DS_Store

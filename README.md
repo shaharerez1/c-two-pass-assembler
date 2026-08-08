@@ -1,6 +1,6 @@
 # Two-Pass Assembler (C / Linux)
 
-A **two-pass assembler** implemented in C that compiles source files written in a custom Assembly-like language into binary/hexadecimal-style output files, including symbol table management, macro expansion, and syntax/semantic error detection.
+A **two-pass assembler** implemented in C that compiles source files written in a custom Assembly-like language into a custom base 4 output files, including symbol table management, macro expansion, and syntax/semantic error detection.
 
 The project is written for a Linux environment, follows the **ANSI C (C90)** standard, and is compiled with `gcc`.
 
